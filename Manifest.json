@@ -1,0 +1,19 @@
+{
+  "name": "First Chrome Extension",
+  "version": "1.0",
+  "manifest_version": 2,
+
+  "description": "I'm awesome!",
+  "icons": {
+    "128": "app.png"
+  },
+
+  "browser_action": {
+    "default_title": "Idle tabs must be purged!",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "http://*/*", "https://*/*"
+  ]
+}
