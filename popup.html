@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 <body>
-<div class="greeting">Hello world!</div>
+<div class="greeting">{{greeting}}</div>
 
 
 <!-- Bootstrap -->
@@ -17,13 +17,8 @@
 
 <!-- Vue.js -->
 <script src ="https://cdn.jsdelivr.net/npm/vue"></script>
+<script>
+    document.contenteditable = true;
+</script>
 </body>
 </html>
-
-<script>
-    new Vue({
-        data: {
-            greeting: "hello world!",
-        },
-    })
-</script>
